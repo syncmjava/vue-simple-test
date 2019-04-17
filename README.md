@@ -1,12 +1,6 @@
-# THIS REPOSITORY IS DEPRECATED
-
-> Note: This example is outdated. It's now recommended to scaffold your project with [Vue CLI 3](https://cli.vuejs.org/) which provides out-of-the-box configurations for unit testing.
-
-# vue-test-utils-jest-example
+# vue-simple-test
 
 > Example project using Jest + vue-test-utils together
-
-This is based on the `vue-cli` `webpack-simple` template. Test-specific changes include:
 
 ### Additional Dependencies
 
@@ -79,7 +73,7 @@ To apply these options only for tests, we need to add a separate config under `e
 npm install
 
 # serve with hot reload at localhost:8080
-npm run dev
+npm run serve
 
 # build for production with minification
 npm run build
@@ -88,4 +82,3 @@ npm run build
 npm test
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-test-utils](https://vue-test-utils.vuejs.org/guides/#testing-single-file-components-with-jest).
